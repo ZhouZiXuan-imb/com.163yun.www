@@ -1,0 +1,58 @@
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* 版心样式 */
+.container {
+  /* 虽然我们写的1200 官方这么写的 但是量取的时候就是1199 */
+  margin: 0 auto;
+  width: 1200px;
+}
+
+
+/* 字体图标 */
+
+@font-face {
+  font-family: "iconfont";
+  src: url('../fonts/iconfont.eot?t=1573741686180');
+  /* IE9 */
+  src: url('../fonts/iconfont.eot?t=1573741686180#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAUYAAsAAAAACeAAAATMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqHIIYcATYCJAMQCwoABCAFhG0HRBuKCFGULU6Z7AtsG/YEEkiEAAErAECGW1sZsEAEABYIXfiAeKjGfm/v9psDSZJoZKg+ncR0k5AIjQSVlmjNS/j37qdXYFlh7vmyrOoIFCoMXPLzKflAbuj0lNmE3IRb9mRADOFp0ZSrOIJpJ/iN5ikELyBq/+dwafN5Gs3ftpzmGhb1ojgaWwOrW2MI3gGdIN8wdnEZpxPoWjXTOju+vIGhpMkCljwbzWAY08sSXGirmjm7pnjX0y6v5Rt4c38//m1iSNGotE3Pb48k7L76Ul/mL+5tBEF/VjB7UbEHJHGfa7/U8eN7OrpSdtcB0Nathb5m/jKfY+Fa5G38L49QFaJJk/cRdj9R+cpkE3zNz1OAegWjc+02JiB2QHwA7PL3NbXk4xQ4LgLAwICL4zJuBIcDd06UMoyaogiaTiIyV54EE+XzYJbNVE9cO7Rmwrrh9YCweTETXl9rmWribhuV+jBrUaIp5YltliC4bC/DSCbMkUCzZwOSDjtKSWbNlgJytZxk1AQgSXcBG7xvgmTWLMgQxp+0W7vkeYsoymwpncmy5ssYglixa97m/TvnbrDMmKAZJifOHpqFl5JsMkPhLONJPZgAd4YVDCPLohg142/H0iqaIjpP0mZDthsiZzXgLuMmuw1IeN4h7wmWK9ZAho7Y7sFPMebzHTbHkNLuzjVBskMxC/o46DXRZvV6A3j4uMP6ol55y/xy9nkm/VRFPSGYZ+r1rYKHsuItPZ3waGSbBm2B9vZq9hgX1vvQfkb8B4stkGrN5BZ4rUoUaRlledLyhOhussg5nCVhqRKt/YsWzxtugFtgzTBSjBSRW7TAih/lamdZ8mf3WJnNFjOlOUcUrgwTbAo+JV2ZJoB8Z2yNDpjIj+B86PHAfw7vBScT0TpzcPkIZ4sLiEYWBkaVPxU1ndWxQNKx/GhymfV6OrprdU3To3RHCeXVTWRSGDc2d+zpct8wHKDjjhKOax/2jXknGOH9XuB3EbyTv5OZlwP44ir7FEmowTQHzCYpOqgoT0/wi9uNNT/TbET0v3qqQZt1s8faDX8KiblLEzmx2nGj2xuE4dNAzXooIUpiZjjX5JjkruweQFyVLxeLeS9MFQl2IWLWTH4Ftiqtk/I5c12ONwHKZKr8OVXE30wZgjJm2g8/Pf7CNj57ttGawp49wzZihI/nOIoehzMYimLHoQNyoJ0JvYSmQQBB6DnkL//rFTTlj1zN5Nc7lxXyA7/qgkfSdfPz6A7X/19iQjv+byWoLfj/BDWbUhZphkxRbPKV4vRiwIuUdnUTf12aqb8+lIu1iwltiyEULStQta0hE7sHDT370NR2CF27TvbumUl1RHaw4xNAGPuCYugTqrEfZGJ/oWHJPzSNowNdFzE9ZM9GmPFBSiwnibxBI2ysDFM+9kqvSBchS6Mil3BHaWZCuF6skqkTiintY4us1Js8V6hSG+ExOBuFoUWXWp9EvvDy3G2XS5X3QgthIxg7lSJMjkiIayBDsGLK7pwbp37+CtEKISYtaShx3iGpjJkfrS2saiBP5HGthnOpzpS0jRxFFaSYYiuCjpGVhHrcQi5/JR8Rcgtei6iztUStVF35YnxldIWHoEtbllGiRkZD7vuxehUZbie1YVZ4FOu6AAA=') format('woff2'),
+    url('../fonts/iconfont.woff?t=1573741686180') format('woff'),
+    url('../fonts/iconfont.ttf?t=1573741686180') format('truetype'),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('../fonts/iconfont.svg?t=1573741686180#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon:before {
+  content: "\e610";
+}
+
+.icon-weibo:before {
+  content: "\e63d";
+}
+
+.icon-xiaochengxu:before {
+  content: "\e619";
+}
