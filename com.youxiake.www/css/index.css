@@ -14,6 +14,7 @@ body {
   color: #cccccc;
   line-height: 28px;
   margin: 0 10px;
+  height: 28px;
 }
 
 .top-left a:hover {
@@ -27,8 +28,6 @@ body {
 .topnav-right li {
   float: left;
 }
-
-
 
 .topnav-right a,
 .topnav-right span {
@@ -60,7 +59,6 @@ body {
   display: none;
   left: -64px;
   top: 14px;
-
 }
 
 .topnav-right a:hover {
@@ -90,7 +88,7 @@ body {
 
 /* 第二部分css样式 */
 .search {
-  
+
   height: 120px;
   background-color: #333333;
 }
@@ -102,6 +100,23 @@ body {
 }
 
 .search-aera {
-  height: 648px;
-  w
+  position: relative;
+  font-size: 15px;
+  font-weight: 500px;
+  color: #fdd000;
+  float: left;
+  width: 778px;
+  height: 120px;
+  line-height: 120px;
+  margin-left: 132px;
+}
+
+.search-aera-city {
+  width: 62px;
+  height: 18px;
+}
+
+.search-aera-box-input {
+  width: 564px;
+  height: 40px;
 }
