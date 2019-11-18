@@ -29,34 +29,64 @@
             <ul class="topnav-right clearfix">
                 <li><a href="">我的订单</a></li>
                 <li><a href="">帮助中心</a></li>
-                <li><span>我的游侠客</span></li>
-                <li><a href="" class="app"><i class="iconfont">&#xe604;</i><span>手机APP</span></a></li>
+                <li class="myyxk">
+                    <span>我的游侠客</span>
+                    <ul>
+                        <li><a href="">我的游侠客</a></li>
+                        <li><a href="">订单中心</a></li>
+                        <li><a href="">我的社区</a></li>
+                        <li><a href="">我的等级</a></li>
+                        <li><a href="">账户管理</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="" class="app">
+                        <i class="iconfont">&#xe604;</i>
+                        <span>手机APP</span>
+                        <span class="wechat"><img src="./img/topnav-right-app.png" alt=""></span>
+                    </a>
+
+                </li>
                 <li><a href=""><i class="iconfont">&#xe619;</i><img src="./img/topnav-right-xcx.png" alt="">
                     </a></li>
                 <li><a href=""><i class="iconfont">&#xe63d;</i></a></li>
-                <li><a href=""><i class="iconfont">&#xe610;</i><img src="./img/topnav-right-wx.png" alt=""></a></li>
+                <li><a href="" class="app"><i class="iconfont">&#xe610;</i>
+                        <span class="wechat"><img src="./img/topnav-right-wx.png" alt=""></span>
+                    </a></li>
             </ul>
         </div>
     </div>
     <!-- 第二部分 -->
     <div class="search">
         <!-- 板心 -->
-        <div class="container">
-            <div class="search-logo">
-                <img src="./img/logo.png" alt="">
-            </div>
-            <div class="search-aera">
-                <div class="search-aera-city">
+        <div class="container clearfix">
+            <!-- logo -->
+            <img src="./img/logo.png" class="search-logo" alt="">
+            <!-- 搜索框 -->
+            <div class="search-area clearfix">
+                <!-- 搜索城市 -->
+                <div class="search-area-city">
                     <span>南京站</span>
-                    <img src="./img/search-area-xsj.png" alt="">
                 </div>
+                <!-- 搜索框 输入 -->
+                <div class="search-area-box clearfix">
+                    <div class="search-area-box-input clearfix">
+                        <span>综合</span>
+                        <input type="text" placeholder="请输入您要搜索的内容">
+                        <button>搜索</button>
+                    </div>
 
-                <div class="search-aera-box-input clearfix">
-                    <input type="text">
                 </div>
+                <div class="search-hotline">
+                    <img src="./img/search-area-hotline.png" alt="">
+                </div>
+                <img src="./img/search_service.png" class="search-service" alt="">
             </div>
         </div>
     </div>
+
+
+    <div class="sanjiao"></div>
 </body>
 
 </html>
