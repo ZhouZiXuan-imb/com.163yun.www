@@ -83,7 +83,7 @@ body {
 
 .topnav-right .myyxk ul a:hover {
   background-color: #fdd000;
-  color: #222222;
+  color: white;
 }
 
 .topnav-right .myyxk:hover ul {
@@ -306,6 +306,4 @@ body {
   position: absolute;
   right: -100px;
   top: 50px;
-
-
 }
