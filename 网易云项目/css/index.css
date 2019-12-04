@@ -324,7 +324,6 @@ html {
     height: 155px;
     background-color: #f7f8fa;
     margin-top: 20px;
-    padding: ;
 }
 
 .product-content-service-02,
@@ -501,6 +500,10 @@ html {
 
 }
 
+.private-cloud {
+    padding-bottom: 72px;
+}
+
 .private-cloud-title {
     padding: 78px 0 25px;
     text-align: center;
@@ -517,4 +520,125 @@ html {
     color: #666;
 }
 
-.private-cloud-content {}
+.private-cloud-content-left {
+    float: left;
+    width: 235px;
+    padding-top: 130px;
+}
+
+
+.private-cloud-content-left-content {
+    height: 185px;
+}
+
+.private-cloud-content-left li,
+.private-cloud-content-right li {
+    float: left;
+    line-height: 20px;
+    width: 225px;
+    color: #999;
+    margin-top: 8px;
+}
+
+.private-cloud-content-left li span,
+.private-cloud-content-right li span {
+    /* float: left; */
+    line-height: 20px;
+    width: 225px;
+    color: #999;
+}
+
+.private-cloud-content-left-top-title,
+.private-cloud-content-left-bottom-title {
+    font-size: 16px;
+    padding: 0 0 8px 8px;
+}
+
+.u-list-spot {
+    display: block;
+    width: 3px;
+    height: 3px;
+    background-color: #a6acba;
+    float: left;
+    margin-right: 7px;
+    margin-top: 8px;
+}
+
+.private-cloud-content-center {
+    float: left;
+    width: 720px;
+    height: 520px;
+    /* margin: 0 235px; */
+    text-align: right;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.private-cloud-content-right {
+    float: right;
+    width: 225px;
+    /* background-color: red; */
+    padding-top: 130px;
+}
+
+.private-cloud-btn {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.private-cloud-btn a {
+    display: inline-block;
+    background-color: #387ee8;
+    height: 36px;
+    padding: 0 36px;
+    line-height: 36px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.private-cloud-btn a:hover {
+    background-color: #508de8;
+}
+
+.trade-background-image {
+    width: 100%;
+    height: 740px;
+    background-image: url(https://www.163yun.com/res/HomeSolution/%E7%94%B5%E5%95%86@2x.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.trade-title {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.trade-title h2 {
+    font-size: 26px;
+    color: #fff;
+}
+
+.trade-title p {
+    font-size: 16px;
+    color: #d9d9d9;
+    margin-top: 12px;
+}
+
+.trade-content {
+    float: left;
+}
+
+.trade-content-left {
+    float: left;
+    width: 280px;
+    height: 100%;
+    max-width: 280px;
+    z-index: 3;
+    height: 740px;
+    background-image: url(https://www.163yun.com/res/HomeSolution/solution-show.png);
+}
+
+.trade-content-left-content {
+    float: left;
+}
