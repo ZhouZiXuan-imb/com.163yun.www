@@ -22,7 +22,14 @@ html {
     height: 90px;
 }
 
-.searchnav:after {
+.gudingdingwei {
+    position: fixed;
+    width: 1530px;
+    z-index: 999999;
+    background-color: #242a37;
+}
+
+.gudingdingwei:after {
     content: "";
     position: absolute;
     left: 0;
@@ -601,6 +608,11 @@ html {
     background-color: #508de8;
 }
 
+.trade-content {
+    width: 100%;
+    /* height: 740px; */
+}
+
 .trade-background-image {
     width: 100%;
     height: 740px;
@@ -627,18 +639,527 @@ html {
 
 .trade-content {
     float: left;
+    padding-top: 70px;
 }
 
 .trade-content-left {
+    position: absolute;
+    left: 0;
+    top: 0;
     float: left;
     width: 280px;
     height: 100%;
-    max-width: 280px;
+    /* max-width: 280px; */
     z-index: 3;
     height: 740px;
     background-image: url(https://www.163yun.com/res/HomeSolution/solution-show.png);
 }
 
 .trade-content-left-content {
+    padding-top: 216px;
     float: left;
+}
+
+.trade-content-left-content-text01 {
+    position: relative;
+    width: 280px;
+    height: 100px;
+    /* line-height: 100px; */
+    font-size: 22px;
+    color: #fff;
+    padding-left: 58px;
+    box-sizing: border-box;
+    background: url(https://www.163yun.com/res/HomeSolution/solution-a-hover.png);
+}
+
+.trade-content-left-content-text01::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 100px;
+    background-color: #1364f0;
+}
+
+.trade-content-left-content-text {
+    position: relative;
+    width: 280px;
+    height: 100px;
+    /* line-height: 100px; */
+    font-size: 22px;
+    color: #fff;
+    padding-left: 58px;
+    box-sizing: border-box;
+    transition: all .2s;
+}
+
+.trade-content-left-content-text:hover {
+    background: url(https://www.163yun.com/res/HomeSolution/solution-a-hover.png);
+}
+
+.trade-content-left-content-text:hover:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 100px;
+    background-color: #1364f0;
+}
+
+.trade-content-left-content-image {
+    float: left;
+    width: 30px;
+    height: 30px;
+    padding-top: 35px;
+}
+
+.pager-anchor {
+    float: left;
+    line-height: 100px;
+    margin-left: 18px;
+}
+
+.trade-content-right {
+    float: right;
+    width: 900px;
+    padding: 40px 14px 0 65px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.trade-content-right h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.trade-content-right-content-text {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #d9d9d9;
+}
+
+.details {
+    /* float: left; */
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 40px;
+    padding: 0 35px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    color: #fff;
+    transition: all .2s;
+}
+
+.details:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.wire {
+    /* float: left; */
+    height: 1px;
+    width: 100%;
+    background-color: #65666d;
+    margin-top: 36px;
+}
+
+.trade-content-right-bottom {
+
+    padding-top: 35px;
+}
+
+.trade-content-right-bottom-title {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.trade-content-right-bottom-img {
+    padding-top: 24px;
+}
+
+.zoology-image {
+    background-image: url(https://www.163yun.com/res/HomeEcology/home_d_bg.png);
+    background-repeat: no-repeat;
+    padding: 80px 0 50px;
+}
+
+.zoology-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.zoology-title h2 {
+    font-size: 25px;
+    color: #333;
+    font-weight: normal;
+}
+
+.zoology-title p {
+    font-size: 16px;
+    color: #666;
+}
+
+.zoology-content-title {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.zoology-content-title:after {
+    content: "";
+    display: inline-block;
+    width: 52px;
+    height: 2px;
+    background-color: #d1d3e6;
+    margin-bottom: 6px;
+    margin-left: 20px;
+}
+
+.zoology-content-title::before {
+    content: "";
+    display: inline-block;
+    width: 52px;
+    height: 2px;
+    background-color: #d1d3e6;
+    margin-bottom: 6px;
+    margin-right: 20px;
+}
+
+.zoology-content-content {
+    padding-bottom: 60px;
+}
+
+.project-introduction {
+    float: left;
+    /* display: inline-block; */
+    width: 280px;
+    height: 290px;
+    margin-left: 20px;
+    background-color: #fff;
+}
+
+.project-introduction img {
+    float: left;
+}
+
+.project-introduction:first-child {
+    margin: 0;
+}
+
+.project-introduction-text {
+    float: left;
+    height: 110px;
+    width: 280px;
+    padding: 8px 19px 23px;
+    border: 1px solid #e3e4e6;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.project-introduction-text h4 {
+    line-height: 36px;
+}
+
+.project-introduction-text p {
+    font-size: 14px;
+    color: #666;
+}
+
+.cooperate-content-content-01,
+.cooperate-content-content-02 {
+    width: 280px;
+    padding: 0 11px 42px 9px;
+    box-sizing: border-box;
+}
+
+.cooperate-content-content-01:nth-last-child(-n+3),
+.cooperate-content-content-02:nth-last-child(-n+3) {
+    margin-left: 20px;
+}
+
+.cooperate-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 35px;
+}
+
+.cooperate-title::after {
+    content: "";
+    display: inline-block;
+    width: 52px;
+    height: 2px;
+    background-color: #d1d3e6;
+    margin-bottom: 6px;
+    margin-left: 20px;
+}
+
+.cooperate-title::before {
+    content: "";
+    display: inline-block;
+    width: 52px;
+    height: 2px;
+    background-color: #d1d3e6;
+    margin-bottom: 6px;
+    margin-right: 20px;
+}
+
+.cooperate-content-01,
+.cooperate-content-content-01,
+.cooperate-content-content-02,
+.cooperate-content-02 {
+    float: left;
+}
+
+.coopetate-content-content-01-title,
+.coopetate-content-content-02-title {
+    height: 30px;
+}
+
+.coopetate-content-content-01-title img,
+.coopetate-content-content-02-title img {
+    float: left;
+}
+
+.coopetate-content-content-01-title a,
+.coopetate-content-content-02-title a {
+    float: left;
+    line-height: 30px;
+}
+
+.join {
+    width: 100%;
+    text-align: center;
+}
+
+.join a {
+    font-size: 16px;
+    color: #4477d0;
+}
+
+.join a:hover {
+    text-decoration: underline;
+}
+
+.client-content {
+    padding: 80px 0;
+    float: left;
+}
+
+.client-content-title {
+    text-align: center;
+}
+
+.client-content-title h2 {
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.client-content-image {
+    padding-top: 80px;
+}
+
+.client-content-image,
+.client-content-image div {
+    float: left;
+}
+
+
+
+.more {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.more a {
+    font-size: 16px;
+    color: #387ee8;
+}
+
+.more a:hover {
+    text-decoration: underline;
+}
+
+.attestation-content {
+    padding: 70px 0 60px 0;
+}
+
+.attestation-content-title {
+    text-align: center;
+}
+
+.attestation-content-title h4 {
+    font-size: 26px;
+    font-weight: normal;
+    color: #000;
+}
+
+.attestation-content-title p {
+    font-size: 16px;
+    color: #666;
+}
+
+.attetation-content-institution {
+    padding-top: 60px;
+}
+
+.institution-content {
+    float: left;
+    text-align: center;
+    width: 196px;
+    font-size: 12px;
+}
+
+.register-image {
+    background-image: url(../img/register-background.png);
+    width: 100%;
+    height: 240px;
+}
+
+.register-content {
+    padding-top: 80px;
+    text-align: center
+}
+
+.register-content h2 {
+    font-size: 26px;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.register-a a {
+    display: inline-block;
+    padding: 0 42px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 2px;
+    transition: all .2s;
+}
+
+.register-a a:hover {
+    background-color: #fff;
+    color: #2a5add;
+}
+
+.bottomnav {
+    background-color: #242a37;
+}
+
+.bottomnav-top {
+    padding: 0 5px;
+    border-bottom: 1px solid #3b3f42;
+}
+
+.bottomnav-top-content {
+    float: left;
+    width: 389px;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.bottomnav-top-content img {
+    margin-bottom: 15px;
+}
+
+.bottomnav-top-content p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.bottomnav-center {
+    padding-top: 30px;
+}
+
+.bottomnav-center-left {
+    float: left;
+}
+
+.bottomnav-center-left dl {
+    float: left;
+    width: 200px;
+    height: 255px;
+}
+
+.bottomnav-center-left dl:nth-last-child(-n+3) {
+    padding-left: 36px;
+}
+
+.bottomnav-center-left dl dt {
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.bottomnav-center-left dl dd {
+    margin-top: 10px;
+}
+
+.bottomnav-center-left dl dd a {
+    color: #999;
+}
+
+.bottomnav-center-right {
+    float: right;
+    width: 218px;
+    height: 255px;
+
+}
+
+.bottom-center-right-icon-01 .weixin {
+    width: 25px;
+    height: 25px;
+    background-image: url(../精灵图/footer-icon-sns.png);
+    background-position: -1px -60px;
+    background-repeat: no-repeat;
+}
+
+.bottomnav-center-bottom {
+    float: left;
+}
+
+.bottomnav-center-bottom span {
+    font-size: 14px;
+    color: #fff;
+}
+
+.bottomnav-center-bottom a {
+    font-size: 14px;
+    color: #999;
+    margin-left: 50px;
+}
+
+.bottomnav-bottom {
+    padding: 8px 10px 16px;
+    text-align: center;
+    color: #999;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.bottom-bottom-icon img {
+    margin-top: 3px;
+    vertical-align: middle;
+}
+
+.copyright span a,
+.bottomnav-bottom .zhewenwang {
+    color: #999;
+}
+
+.copyright span a:hover,
+.zhewenwang:hover,
+.bottomnav-center-bottom a:hover,
+.bottomnav-center-left dl dd a:hover {
+    color: #4477d0;
 }
