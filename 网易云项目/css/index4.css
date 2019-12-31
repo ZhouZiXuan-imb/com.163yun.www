@@ -1,0 +1,272 @@
+body {
+font: 14px/1.3 PingFangSC-Light,
+PingFang SC,
+Helvetica,
+Tahoma,
+Arial,
+Microsoft YaHei,
+Hiragino Sans GB,
+WenQuanYi Micro Hei,
+sans-serif;
+}
+
+html {
+/* background-color: black; */
+/* height: 10000px; */
+width: 100%;
+}
+
+.searchnav {
+position: relative;
+background-color: #242a37;
+height: 90px;
+}
+
+.gudingdingwei {
+position: fixed;
+width: 100%;
+z-index: 999999;
+background-color: #242a37;
+}
+
+.gudingdingwei:after {
+content: "";
+position: absolute;
+left: 0;
+bottom: 50px;
+height: 1px;
+width: 100%;
+background-color: #494b53;
+}
+
+.searchnav-top {
+height: 40px;
+position: relative;
+}
+
+.searchnav-top-left {
+float: left;
+height: 40px;
+}
+
+.searchnav-top-right {
+float: right;
+width: 300px;
+height: 40px;
+}
+
+.searchnav-top-right-input {
+float: left;
+margin-right: 8px;
+}
+
+.searchnav-top-right input {
+float: left;
+width: 144px;
+height: 40px;
+border: none;
+background-color: #2e3340;
+padding: 0 12px;
+box-sizing: border-box;
+color: #fff;
+font-size: 14px;
+}
+
+.searchnav-top-right button {
+float: left;
+width: 36px;
+height: 40px;
+border: none;
+background-color: #2e3340;
+color: #d9d9d9;
+}
+
+.searchnav-top-right button:hover {
+color: #5494db;
+}
+
+.beian a {
+float: left;
+color: #ffffff;
+line-height: 40px;
+font-size: 14px;
+padding: 0 10px;
+}
+
+.beian a:hover {
+color: #5494db;
+}
+
+.searchnav-bottom {
+height: 50px;
+background-color: #242a37;
+}
+
+.searchnav-bottom-left,
+.searchnav-bottom-left ul li,
+.searchnav-bottom-left ul li a,
+.searchnav-bottom-right a {
+float: left;
+color: #fff;
+font-size: 14px;
+line-height: 50px;
+}
+
+.searchnav-bottom-left {
+text-align: center;
+}
+
+.searchnav-bottom-left ul li {
+height: 49px;
+padding: 0 10px;
+margin-left: 5px;
+
+}
+
+.searchnav-bottom-left ul li:hover {
+border-bottom: 2px solid #5494db;
+box-sizing: border-box;
+}
+
+.searchnav-bottom-left .dianji {
+padding: 0;
+}
+
+.searchnav-bottom-left .dianji a {
+padding: 0 10px;
+}
+
+.searchnav-bottom-left ul li:first-child {
+margin: 0;
+}
+
+.searchnav-bottom-right {
+float: right;
+height: 100%;
+}
+
+.searchnav-bottom-right .denglu .denglu02 {
+padding: 0 10px;
+margin-right: 10px;
+}
+
+.searchnav-bottom-right .denglu .denglu02:hover {
+color: #5494db;
+}
+
+.searchnav-bottom-right .denglu .zhuce {
+padding: 0 27px;
+background-color: #387ee8;
+}
+
+.searchnav-bottom-right .denglu .zhuce:hover {
+background-color: #508de8;
+}
+
+.skiff {
+    width: 100%;
+    height: 410px;
+    /* overflow: hidden; */
+    
+
+}
+
+#bcg {
+    left: 0;
+    top: -90px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/lunbotu.png);
+    background-position-y: -90px;
+}
+
+.skiff-content {
+    padding-top: 90px;
+}
+
+.skiff-content-title h3{
+    font-size: 42px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.skiff-content-introduce p{
+    width: 570px;
+    padding-top: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.skiff-content-introduce ul {
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+
+.skiff-content-introduce li {
+    float: left;
+    position: relative;
+    height: 20px;
+    color: #387ee8;
+    background-color: rgba(56,126,232,.15);
+    margin:0 17px 10px 0;
+    padding:1px 5px;
+    line-height: 1.5;
+}
+
+.skiff-content-introduce ul li .keybox-left {
+    background-image: url(../img/left.png);
+    left: 0;
+}
+
+.skiff-content-introduce li .keybox-right {
+    background-image: url(../img/right.png);
+    right: 0;
+}
+
+.skiff-content-introduce ul li .keybox-left,
+.skiff-content-introduce li .keybox-right {
+
+    display: block;
+    position: absolute;
+    
+    width: 5px;
+    height: 22px;
+    top: 0;
+    z-index: 2;
+    background-size: 5px 22px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.buts {
+    display: inline-block;
+}
+
+.buts a {
+    display: block;
+    height: 40px;
+    padding: 0 36px;
+    line-height: 40px;
+    background-color: #387ee8;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 25px;
+}
+
+.buts-link {
+    display: inline-block;
+    
+}
+
+.buts-link a {
+    color: #fff;
+    margin-left: 30px;
+}
+
+.skiffnav {
+    width: 100%;
+    background-color: #f0f3f7;
+}
+

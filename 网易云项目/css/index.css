@@ -13,7 +13,7 @@ body {
 html {
     /* background-color: black; */
     /* height: 10000px; */
-    width: 1530px;
+    width: 100%;
 }
 
 .searchnav {
@@ -24,7 +24,7 @@ html {
 
 .gudingdingwei {
     position: fixed;
-    width: 1530px;
+    width: 100%;
     z-index: 999999;
     background-color: #242a37;
 }
@@ -35,7 +35,7 @@ html {
     left: 0;
     bottom: 50px;
     height: 1px;
-    width: 1530px;
+    width: 100%;
     background-color: #494b53;
 }
 
@@ -206,7 +206,7 @@ html {
 }
 
 .ad {
-    width: 1530px;
+    width: 100%;
     padding: 25px 0;
     box-sizing: border-box;
     background-color: #f7f8fa;

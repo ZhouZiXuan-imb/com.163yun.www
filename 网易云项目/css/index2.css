@@ -13,7 +13,7 @@ body {
 html {
     /* background-color: black; */
     /* height: 10000px; */
-    width: 1530px;
+    width: 100%;
 }
 
 .searchnav {
@@ -24,7 +24,7 @@ html {
 
 .gudingdingwei {
     position: fixed;
-    width: 1530px;
+    width: 100%;
     z-index: 999999;
     background-color: #242a37;
 }
@@ -35,7 +35,7 @@ html {
     left: 0;
     bottom: 50px;
     height: 1px;
-    width: 1530px;
+    width: 100%;
     background-color: #494b53;
 }
 
@@ -386,4 +386,180 @@ html {
     padding: 60px 0 70px;
 }
 
-.apply-introduce {}
+.content {
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.apply-content-introduce {
+    width: 100%;
+}
+
+.apply-introduce-top {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 49px;
+}
+
+.apply-introduce-top-content {
+    z-index: 2;
+    float: left;
+    width: 146px;
+    height: 49px;
+    text-align: center;
+    line-height: 49px;
+    border: 1px solid #dbe0e5;
+    box-sizing: border-box;
+    background-color: #f0f3f7;
+}
+
+.apply-introduce-top-content:first-child {
+    background-color: #fff;
+    border-bottom: none;
+}
+
+.apply-introduce-top-content:nth-last-child(-n+2) {
+    border-left: none;
+}
+
+.apply-introduce-bottom {
+    margin-top: 48px;
+    padding-top: 30px;
+    border: 1px solid #dbe0e5;
+    box-sizing: border-box;
+}
+
+.apply-introduce-bottom .title{
+    padding: 0 30px;
+    box-sizing: border-box;
+    
+}
+
+.apply-introduce-bottom-img {
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+
+
+
+
+/* 底部 */
+.bottomnav {
+    background-color: #242a37;
+}
+
+.bottomnav-top {
+    padding: 0 5px;
+    border-bottom: 1px solid #3b3f42;
+}
+
+.bottomnav-top-content {
+    float: left;
+    width: 389px;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.bottomnav-top-content img {
+    margin-bottom: 15px;
+}
+
+.bottomnav-top-content p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.bottomnav-center {
+    padding-top: 30px;
+}
+
+.bottomnav-center-left {
+    float: left;
+}
+
+.bottomnav-center-left dl {
+    float: left;
+    width: 200px;
+    height: 255px;
+}
+
+.bottomnav-center-left dl:nth-last-child(-n+3) {
+    padding-left: 36px;
+}
+
+.bottomnav-center-left dl dt {
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.bottomnav-center-left dl dd {
+    margin-top: 10px;
+}
+
+.bottomnav-center-left dl dd a {
+    color: #999;
+}
+
+.bottomnav-center-right {
+    float: right;
+    width: 218px;
+    height: 255px;
+
+}
+
+.bottom-center-right-icon-01 .weixin {
+    width: 25px;
+    height: 25px;
+    background-image: url(../精灵图/footer-icon-sns.png);
+    background-position: -1px -60px;
+    background-repeat: no-repeat;
+}
+
+.bottomnav-center-bottom {
+    float: left;
+}
+
+.bottomnav-center-bottom span {
+    font-size: 14px;
+    color: #fff;
+}
+
+.bottomnav-center-bottom a {
+    font-size: 14px;
+    color: #999;
+    margin-left: 50px;
+}
+
+.bottomnav-bottom {
+    padding: 8px 10px 16px;
+    text-align: center;
+    color: #999;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.bottom-bottom-icon img {
+    margin-top: 3px;
+    vertical-align: middle;
+}
+
+.copyright span a,
+.bottomnav-bottom .zhewenwang {
+    color: #999;
+}
+
+.copyright span a:hover,
+.zhewenwang:hover,
+.bottomnav-center-bottom a:hover,
+.bottomnav-center-left dl dd a:hover {
+    color: #4477d0;
+}
+
